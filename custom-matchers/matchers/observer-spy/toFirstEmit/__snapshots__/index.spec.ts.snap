@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value ("") when emitting ["","hello","this","is","so","cool"] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: \\"\\"
+Received: \\"\\""
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value ("hello") when emitting ["hello","this","is","so","cool"] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: \\"hello\\"
+Received: \\"hello\\""
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value (["I"]) when emitting [["I"],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: [\\"I\\"]
+Received: [\\"I\\"]"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value ([]) when emitting [[],["I"],["am"],["an"],["Array"]] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: []
+Received: []"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value ({"a":"a"}) when emitting [{"a":"a"},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: {\\"a\\": \\"a\\"}
+Received: {\\"a\\": \\"a\\"}"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value ({"buffer":{"type":"Buffer","data":[1,2,3]}}) when emitting [{"buffer":{"type":"Buffer","data":[1,2,3]}},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: {\\"buffer\\": {\\"data\\": [1, 2, 3], \\"type\\": \\"Buffer\\"}}
+Received: {\\"buffer\\": {\\"data\\": [1, 2, 3], \\"type\\": \\"Buffer\\"}}"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value ({}) when emitting [{},{"a":"a"},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: {}
+Received: {}"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value (0) when emitting [0,1,2,4,5] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: 0
+Received: 0"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value (1) when emitting [1,2,3,4,5] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: 1
+Received: 1"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value (false) when emitting [false,true,true,false,false] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: false
+Received: false"
+`;
+
+exports[`.not.toFirstEmit fail should fail when observable first emit a given value (true) when emitting [true,false,true,false,true] 1`] = `
+"expect(received).not.toFirstEmit(expected)
+
+Expected observable first emit not to be: true
+Received: true"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value ("not here") when emitting ["","hello","so","cool"] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: \\"not here\\"
+Received: \\"\\""
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value ("so") when emitting ["hello","so","cool"] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: \\"so\\"
+Received: \\"hello\\""
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (["Not here"]) when emitting [[],["I"],["am"],["an"],["Array"]] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: [\\"Not here\\"]
+Received: []"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value ([]) when emitting [["I"],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: []
+Received: [\\"I\\"]"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value ([{"type":"Buffer","data":[3,2,1]}]) when emitting [[{"type":"Buffer","data":[1,2,3]}],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: [{\\"data\\": [3, 2, 1], \\"type\\": \\"Buffer\\"}]
+Received: [{\\"data\\": [1, 2, 3], \\"type\\": \\"Buffer\\"}]"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value ({"a":"a"}) when emitting [{},{"a":"a"},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: {\\"a\\": \\"a\\"}
+Received: {}"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value ({}) when emitting [{"a":"a"},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: {}
+Received: {\\"a\\": \\"a\\"}"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (0) when emitting [1,2,3] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: 0
+Received: 1"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (0) when emitting [false,true,true] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: 0
+Received: false"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (1) when emitting [true,false,true] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: 1
+Received: true"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (2) when emitting [0,1,2] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: 2
+Received: 0"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (false) when emitting [0,1,2] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: false
+Received: 0"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (false) when emitting [true,false,true] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: false
+Received: true"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (true) when emitting [1,2,3] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: true
+Received: 1"
+`;
+
+exports[`.toFirstEmit fail should fails when the observable does not start with the given value (true) when emitting [false,true,true] 1`] = `
+"expect(received).toFirstEmit(expected)
+
+Expected observable first emit to be: true
+Received: false"
+`;

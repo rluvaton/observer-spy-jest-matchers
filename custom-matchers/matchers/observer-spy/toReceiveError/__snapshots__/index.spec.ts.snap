@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.not.toReceiveError fail should fail when observable is only throwing error 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - ["","hello","this","is","so","cool"] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - ["hello","this","is","so","cool"] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [["I"],[],["am"],["an"],["Array"]] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [[],["I"],["am"],["an"],["Array"]] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [{"a":"a"},{},{"b":"b"},{"c":"c"}] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [{},{"a":"a"},{"b":"b"},{"c":"c"}] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [0,1,2,4,5] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [1,2,3,4,5] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [false,true,true,false,false] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the end should fail when observable emit these values - [true,false,true,false,true] and then throw in the end 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - ["","hello","this","is","so","cool"] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - ["hello","this","is","so","cool"] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [["I"],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [[],["I"],["am"],["an"],["Array"]] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [{"a":"a"},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [{},{"a":"a"},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [0,1,2,4,5] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [1,2,3,4,5] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [false,true,true,false,false] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw at the start should fail when observable throw and then emit these values - [true,false,true,false,true] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - ["","hello","this","is","so","cool"] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - ["hello","this","is","so","cool"] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [["I"],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [[],["I"],["am"],["an"],["Array"]] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [{"a":"a"},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [{},{"a":"a"},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [0,1,2,4,5] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [1,2,3,4,5] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [false,true,true,false,false] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.not.toReceiveError fail throw in the middle should fail when observable throw in the middle of emitting - [true,false,true,false,true] 1`] = `
+"expect(received).not.toReceiveError(expected)
+
+Expected observable to not receive an error"
+`;
+
+exports[`.toReceiveError fail should fail if a given observable is empty 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - ["","hello","this","is","so","cool"] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - ["hello","this","is","so","cool"] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [["I"],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [[],["I"],["am"],["an"],["Array"]] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [{"a":"a"},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [{},{"a":"a"},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [0,1,2,4,5] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [1,2,3,4,5] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [false,true,true,false,false] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when an observable don't throw and only emit these values - [true,false,true,false,true] 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;
+
+exports[`.toReceiveError fail should fail when passing an error type that is not the same as the error that throwen in the observable 1`] = `
+"expect(received).toReceiveError(expected)
+
+Expected observable to receive an error"
+`;

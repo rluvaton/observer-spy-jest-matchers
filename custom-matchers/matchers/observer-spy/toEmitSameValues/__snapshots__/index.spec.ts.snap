@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`.not.toEmitSameValues fail should fail when observable first emit a given value (["","hello","this","is","so","cool"]) when emitting %j 1`] = `
+"expect(received).not.toEmitSameValues(expected)
+
+Expected observable emitted values not to be: [\\"\\", \\"hello\\", \\"this\\", \\"is\\", \\"so\\", \\"cool\\"]
+Received: [\\"\\", \\"hello\\", \\"this\\", \\"is\\", \\"so\\", \\"cool\\"]"
+`;
+
+exports[`.not.toEmitSameValues fail should fail when observable first emit a given value ([[],["I"],["am"],["an"],["Array"]]) when emitting %j 1`] = `
+"expect(received).not.toEmitSameValues(expected)
+
+Expected observable emitted values not to be: [[], [\\"I\\"], [\\"am\\"], [\\"an\\"], [\\"Array\\"]]
+Received: [[], [\\"I\\"], [\\"am\\"], [\\"an\\"], [\\"Array\\"]]"
+`;
+
+exports[`.not.toEmitSameValues fail should fail when observable first emit a given value ([{"a":"a"},{},{"b":"b"},{"c":"c"}]) when emitting %j 1`] = `
+"expect(received).not.toEmitSameValues(expected)
+
+Expected observable emitted values not to be: [{\\"a\\": \\"a\\"}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]
+Received: [{\\"a\\": \\"a\\"}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]"
+`;
+
+exports[`.not.toEmitSameValues fail should fail when observable first emit a given value ([{"buffer":{"type":"Buffer","data":[1,2,3]}},{},{"b":"b"},{"c":"c"}]) when emitting %j 1`] = `
+"expect(received).not.toEmitSameValues(expected)
+
+Expected observable emitted values not to be: [{\\"buffer\\": {\\"data\\": [1, 2, 3], \\"type\\": \\"Buffer\\"}}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]
+Received: [{\\"buffer\\": {\\"data\\": [1, 2, 3], \\"type\\": \\"Buffer\\"}}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]"
+`;
+
+exports[`.not.toEmitSameValues fail should fail when observable first emit a given value ([0,1,2,4,5]) when emitting %j 1`] = `
+"expect(received).not.toEmitSameValues(expected)
+
+Expected observable emitted values not to be: [0, 1, 2, 4, 5]
+Received: [0, 1, 2, 4, 5]"
+`;
+
+exports[`.not.toEmitSameValues fail should fail when observable first emit a given value ([true,false,true,false,true]) when emitting %j 1`] = `
+"expect(received).not.toEmitSameValues(expected)
+
+Expected observable emitted values not to be: [true, false, true, false, true]
+Received: [true, false, true, false, true]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values (["hello","so","cool"]) when emitting ["hello","so","cool","not"] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [\\"hello\\", \\"so\\", \\"cool\\", \\"not\\"]
+Received: [\\"hello\\", \\"so\\", \\"cool\\"]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values (["hello","so","cool"]) when emitting ["hello"] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [\\"hello\\"]
+Received: [\\"hello\\", \\"so\\", \\"cool\\"]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values (["hello","so","cool"]) when emitting ["not","the","same","values"] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [\\"not\\", \\"the\\", \\"same\\", \\"values\\"]
+Received: [\\"hello\\", \\"so\\", \\"cool\\"]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values (["hello","so","cool"]) when emitting ["so","cool","hello"] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [\\"so\\", \\"cool\\", \\"hello\\"]
+Received: [\\"hello\\", \\"so\\", \\"cool\\"]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([[],["I"],["am"],["an"],["Array"]]) when emitting [["I"],[],["am"],["an"],["Array"]] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [[\\"I\\"], [], [\\"am\\"], [\\"an\\"], [\\"Array\\"]]
+Received: [[], [\\"I\\"], [\\"am\\"], [\\"an\\"], [\\"Array\\"]]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([[],["I"],["am"],["an"],["Array"]]) when emitting [[],["I"],["am"],["Iron Man"]] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [[], [\\"I\\"], [\\"am\\"], [\\"Iron Man\\"]]
+Received: [[], [\\"I\\"], [\\"am\\"], [\\"an\\"], [\\"Array\\"]]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([[],["I"],["am"],["an"],["Array"]]) when emitting [[],["I"],["am"],["an"],["Array"],["not matching"]] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [[], [\\"I\\"], [\\"am\\"], [\\"an\\"], [\\"Array\\"], [\\"not matching\\"]]
+Received: [[], [\\"I\\"], [\\"am\\"], [\\"an\\"], [\\"Array\\"]]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([{"a":"a"},{},{"b":"b"},{"c":"c"}]) when emitting [{"a":"a"},{},{"b":"b"},{"c":"c"},{"d":"d"}] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [{\\"a\\": \\"a\\"}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}, {\\"d\\": \\"d\\"}]
+Received: [{\\"a\\": \\"a\\"}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([{"a":"a"},{},{"b":"b"},{"c":"c"}]) when emitting [{"d":"d"},{"c":"c"}] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [{\\"d\\": \\"d\\"}, {\\"c\\": \\"c\\"}]
+Received: [{\\"a\\": \\"a\\"}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([{},{"a":"a"},{"b":"b"},{"c":"c"}]) when emitting [{"a":"a"},{},{"b":"b"},{"c":"c"}] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [{\\"a\\": \\"a\\"}, {}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]
+Received: [{}, {\\"a\\": \\"a\\"}, {\\"b\\": \\"b\\"}, {\\"c\\": \\"c\\"}]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([0,1,2]) when emitting [0,2,1] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [0, 2, 1]
+Received: [0, 1, 2]"
+`;
+
+exports[`.toEmitSameValues fail should fails when the observable does not emit the given values ([true,false,true]) when emitting [false,true,true] 1`] = `
+"expect(received).toEmitSameValues(expected)
+
+Expected observable emitted values to be: [false, true, true]
+Received: [true, false, true]"
+`;
